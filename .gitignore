@@ -1,0 +1,61 @@
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django migrations
+**/migrations/
+
+# Environment variables and settings
+.env
+
+# Database files
+db.sqlite3
+*.sqlite3
+
+# Local development settings
+*.local.py
+
+# Logs
+*.log
+*.log.*
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Static and media files (if generated dynamically)
+staticfiles/
+media/
+
+# IDE / Editor specific files
+.vscode/
+.idea/
+*.swp
+
+# macOS specific files
+.DS_Store
+
+# Coverage reports
+htmlcov/
+.coverage
+*.cover
+*.py,cover
+.hypothesis/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Pytest cache
+.pytest_cache/
+
