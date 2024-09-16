@@ -1,0 +1,20 @@
+repos:
+  # Linting with Black
+  - repo: https://github.com/psf/black
+    rev: 23.1.0
+    hooks:
+      - id: black
+
+  # Check for Python syntax errors and style issues
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.0.1
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+
+  # Commitizen to enforce conventional commits
+  - repo: https://github.com/commitizen-tools/commitizen
+    rev: v2.40.0
+    hooks:
+      - id: commitizen
+        stages: [commit-msg]  # Use in the commit-msg stage to check commit messages
